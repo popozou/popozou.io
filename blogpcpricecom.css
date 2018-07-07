@@ -60,31 +60,14 @@ ins {
   padding: 8px 0px 8px 5px
 }
 
-/*.entry-content h3 {
-  font-size: 130%;
+.entry-content h3 {
+  font-size: 180%;
   background-color: #fff6e5;
   border-bottom: 1px solid #f3ce85;
   border-left: 10px solid #f3ce85;
-  padding: 5px 0px 5px 8px;*/
+  padding: 5px 0px 5px 8px;
 }
 
-.entry-content h3 {
-     position: relative;
-     padding:0.5em 0.5em 0.5em 1.4em;
-     border: 1px solid #CCC;
-     border-radius: 5px;
-}
- 
-.entry-content h3::after {
-     position: absolute;
-     top: 50%;
-     left:0.7em;
-     transform:translateY(-50%);
-     content: '';
-     width: 5px;
-     height:25px;
-     background-color: #446689;
-}
 
 /*
 ==========================================================================
