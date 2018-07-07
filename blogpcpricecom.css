@@ -1,0 +1,786 @@
+/*
+==========================================================================
+最終更新：2016.4.18
+==========================================================================
+*/
+
+.entry-content p{
+    font-size:16px;
+}
+
+ins {
+  background: none;
+}
+
+/*続きを読むボタン*/
+.entry-see-more {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight:bold;
+  border: 2px solid #666666;
+  border-radius: 3px;
+  transition: .01s
+  color:#ffffff;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.entry-see-more:hover {
+  background-color: #888888;
+  border-color: #888888;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.date {
+  font-size: 11px;
+  width: 66px;
+  border-top: 1px solid #dedede;
+  display: block;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  /*min-height: 100px;*/
+  /*border-right: 1px solid #CCC;*/
+}
+
+/*記事タイトルのH1のところ  width: 665px;*/
+.entry-title{
+  margin-bottom: 15px;
+  line-height: 1.3;
+  position: relative;
+  width: 86%;
+  left: 85px;
+  border-bottom: 1px solid #626262;
+  border-left: 8px solid #000000;
+  background-color: #FFFFFF;
+  padding: 8px 0px 8px 5px
+}
+
+.entry-content h3 {
+  font-size: 130%;
+  background-color: #fff6e5;
+  border-bottom: 1px solid #f3ce85;
+  border-left: 10px solid #f3ce85;
+  padding: 5px 0px 5px 8px;
+}
+
+/*
+==========================================================================
+ブログタイトル下のスペースとタイトル文字調整
+==========================================================================
+*/
+#blog-title{
+    height:100px;
+}
+.header-image-enable #blog-title #title a {
+    color: #000000;
+    -moz-text-shadow: 0px 0px 0px #000;
+    -webkit-text-shadow: 0px 0px 0px #000;
+    text-shadow: 0px 0px 0px #000;
+}
+.header-image-enable #blog-title #blog-description {
+    font-weight: normal;
+    size:10px;
+    color: #777777;
+    font-family:sans-serif;
+    -moz-text-shadow: 0px 0px 0px #000;
+    -webkit-text-shadow: 0px 0px 0px #000;
+    text-shadow: 0px 0px 0px #000;
+}
+
+/*
+==========================================================================
+プロフィール調整
+==========================================================================
+*/
+.profile-size {
+    width:210px;
+    margin-bottom:10px;
+    background-color: #ffffff;
+}
+
+.profile-left {
+    float:left;
+    margin-right:10px;
+}
+
+.profile-text {
+    overflow: auto;
+}
+
+
+/*
+==========================================================================
+POPULAR_ENTRY
+==========================================================================
+*/
+.htbl_popular_entries {
+  height: 100%;
+  width: 225px;
+}
+.htbl_popular_entry {
+  position: relative;
+  background: #ddd;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 1px;
+  border-radius: 1px;
+}
+.htbl_popular_entry_img { position: relative; top: -9px; min-height: 110px;}
+.htbl_popular_entry_text {
+  position: absolute;
+  top: 0px;
+  word-break: break-all;
+  overflow: hidden;
+  background: rgba(77, 77, 77, 0.42);
+  width: 90%;
+  height: 100px;
+  margin-top: 0px;
+  padding: 0 5%;
+  color: rgba(255, 255, 255, 0.985);
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+.htbl_popular_entry_text:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: transparent;
+  text-shadow: none;
+  padding-top: 100px;
+}
+.htbl_popular_entry_text span.entry_title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; 
+  height: 100px;
+  font-size: 12px;
+}
+.htbl_popular_entry_text span.entry_date {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  text-shadow: none;
+}
+.htbl_popular_entry_text span.entry_hatebu { position: absolute; left: 5px; bottom: 0px; }
+
+
+/*
+==========================================================================
+記事下のシェアボタンの枠（PC用）
+==========================================================================
+*/
+
+.share-waku01{
+    background: #f5f5f5;
+    border: 1px solid #cfcfcf;
+    margin: 30px 0px 0px 0px;
+    padding: 10px 0px 15px 0px;
+}
+
+.share-waku02{
+    background: #f5f5f5;
+    border: 1px solid #cfcfcf;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 30px 0px;
+}
+
+.share-title01{
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    border: 0px solid #cfcfcf;
+}
+
+/*
+==========================================================================
+シェアボタン（PCデザイン用）
+==========================================================================
+*/
+.share-3d{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-3d-inner a {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.share-3d .small-text{
+    font-size: 14px;
+}
+.share-3d .hatena-bookmark-button{
+    background: #00A4DE;
+    border: 0px solid #00A4DE;
+    box-shadow: 0 0px #43638b;
+}
+.share-3d .twitter-button{
+    background: #55ACEE;
+    border: 0px solid #55ACEE;
+    box-shadow: 0 0px #0092ca;
+}
+.share-3d .googleplus-button{
+    background: #C53727;
+    border: 0px solid #C53727;
+    box-shadow: 0 0px #ad3a2d;
+}
+.share-3d .facebook-button{
+    background: #405BA7;
+    border: 0px solid #405BA7;
+    box-shadow: 0 0px #2c4373;
+}
+.share-3d .pocket-button{
+    background: #EE4256;
+    border: 0px solid #EE4256;
+    box-shadow: 0 0px 0 #c0392b;
+}
+.share-3d .line-button{
+    position:relative;
+    top: 2px;
+    font-size: 25px;
+    background: #00C300;
+    border: 0px solid #00C300;
+    box-shadow: 0 0px 0 green;
+}
+.share-3d a:active{
+    top: 3px;
+    box-shadow: none;
+}
+.share-3d .hatena-bookmark-button:active{
+    background: #43638b;
+}
+.share-3d .twitter-button:active{
+    background: #0092ca;
+}
+.share-3d .googleplus-button:active{
+    background: #ad3a2d;
+}
+.share-3d .facebook-button:active{
+    background: #2c4373;
+}
+.share-3d .pocket-button:active{
+    background: #c0392b;
+}
+
+
+/*
+==========================================================================
+フォローボタンのデザイン（PC用：記事下にあるもの）
+==========================================================================
+*/
+.follow-btn{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.follow-btn a {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 29.40%;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btn .hatena {
+    color: #ffffff;
+    border: 2px solid #3D3F44;
+    background: #3D3F44; 
+}
+.follow-btn .twitter {
+    color: #ffffff;
+    border: 2px solid #00ACEE;
+    background: #00ACEE; 
+}
+.follow-btn .feedly { 
+    color: #ffffff;
+    border: 2px solid #70CA3B;
+    background: #70CA3B;
+}
+.follow-btn .facebook { 
+    color: #ffffff;
+    border: 2px solid #3b5998;
+    background: #3b5998;
+}
+.follow-btn .instagram { 
+    color: #ffffff;
+    border: 2px solid #3f729b;
+    background: #3f729b;
+}
+.follow-btn .google { 
+    color: #ffffff;
+    border: 2px solid #db4a39;
+    background: #db4a39;
+}
+.follow-btn .hatena:hover {
+    color: #3D3F44;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btn .twitter:hover {
+    color: #00ACEE;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btn .feedly:hover {
+    color: #70CA3B;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btn .facebook:hover {
+    color: #3b5998;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btn .instagram:hover {
+    color: #3f729b;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btn .google:hover {
+	color: #db4a39;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-small{
+    font-size: 14px;
+}
+
+
+/*
+==========================================================================
+フォローボタンのデザイン（サイドバー用）
+==========================================================================
+*/
+.follow-btnside{
+    width: 146px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.follow-btnside a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
+}
+.follow-btnside .hatena {
+    color: #ffffff;
+    border: 2px solid #3D3F44;
+    background: #3D3F44; 
+}
+.follow-btnside .twitter {
+    color: #ffffff;
+    border: 2px solid #00ACEE;
+    background: #00ACEE; 
+}
+.follow-btnside .feedly { 
+    color: #ffffff;
+    border: 2px solid #70CA3B;
+    background: #70CA3B;
+}
+.follow-btnside .facebook { 
+    color: #ffffff;
+    border: 2px solid #3b5998;
+    background: #3b5998;
+}
+.follow-btnside .instagram { 
+    color: #ffffff;
+    border: 2px solid #3f729b;
+    background: #3f729b;
+}
+.follow-btnside .google { 
+	color: #ffffff;
+	border: 2px solid #db4a39;
+	background: #db4a39;
+}
+.follow-btnside .youtube { 
+	color: #ffffff;
+	border: 2px solid #cd201f;
+	background: #cd201f;
+}
+.follow-btnside .hatena:hover {
+    color: #3D3F44;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside .twitter:hover {
+    color: #00ACEE;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside .feedly:hover {
+    color: #70CA3B;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside .facebook:hover {
+    color: #3b5998;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside .instagram:hover {
+    color: #3f729b;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside .google:hover {
+	color: #db4a39;
+	background: #ffffff;
+	transition: all .3s;
+}
+.follow-btnside .youtube:hover {
+	color: #cd201f;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-smallside{
+    font-size: 14px;
+}
+
+/*
+==========================================================================
+フォローボタンのデザイン（サイドバー用のYoutube用）
+==========================================================================
+*/
+.follow-btnsideyt{
+    width: 196px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.follow-btnsideyt a {
+    display: inline-block;
+    height: 100px;
+    line-height: 21px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btnsideyt .youtube2 { 
+	color: #ffffff;
+	border: 2px solid #cd201f;
+	background: #cd201f;
+}
+.follow-btnsideyt .youtube2:hover {
+	color: #cd201f;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-smallsideyt1{
+    font-size: 18px;
+}
+.text-smallsideyt2{
+    font-size: 16px;
+}
+
+
+/*
+==========================================================================
+フォローボタンのデザイン（サイドバー用）：favorite.hatenablog.jp
+==========================================================================
+*/
+
+.follow-btnside2{
+    width: 146px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.follow-btnside2 a {
+    display: inline-block;
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
+}
+.follow-btnside2 .hatena2 {
+    color: #ffffff;
+    border: 2px solid #3D3F44;
+    background: #3D3F44; 
+}
+.follow-btnside2 .twitter2 {
+    color: #ffffff;
+    border: 2px solid #00ACEE;
+    background: #00ACEE; 
+}
+.follow-btnside2 .feedly2 { 
+    color: #ffffff;
+    border: 2px solid #70CA3B;
+    background: #70CA3B;
+}
+.follow-btnside2 .facebook2 { 
+    color: #ffffff;
+    border: 2px solid #3b5998;
+    background: #3b5998;
+}
+.follow-btnside2 .instagram2 { 
+    color: #ffffff;
+    border: 2px solid #3f729b;
+    background: #3f729b;
+}
+.follow-btnside2 .google2 { 
+	color: #ffffff;
+	border: 2px solid #db4a39;
+	background: #db4a39;
+}
+.follow-btnside2 .youtube2 { 
+	color: #ffffff;
+	border: 2px solid #cd201f;
+	background: #cd201f;
+}
+.follow-btnside2 .hatena2:hover {
+    color: #3D3F44;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside2 .twitter2:hover {
+    color: #00ACEE;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside2 .feedly2:hover {
+    color: #70CA3B;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside2 .facebook2:hover {
+    color: #3b5998;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside2 .instagram2:hover {
+    color: #3f729b;
+    background: #ffffff;
+    transition: all .3s;
+}
+.follow-btnside2 .google2:hover {
+	color: #db4a39;
+	background: #ffffff;
+	transition: all .3s;
+}
+.follow-btnside2 .youtube2:hover {
+	color: #cd201f;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-smallside2_2{
+    font-size: 14px;
+}
+
+/*
+==========================================================================
+フォローボタンのデザイン（サイドバー用のYoutube用）：favorite.hatenablog.jp
+==========================================================================
+*/
+.follow-btnsideyt2{
+    width: 196px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.follow-btnsideyt2 a {
+    display: inline-block;
+    height: 100px;
+    line-height: 21px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btnsideyt2 .youtube3 { 
+	color: #ffffff;
+	border: 2px solid #cd201f;
+	background: #cd201f;
+}
+.follow-btnsideyt2 .youtube3:hover {
+	color: #cd201f;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-smallsideyt1_2{
+    font-size: 18px;
+}
+.text-smallsideyt2_2{
+    font-size: 16px;
+}
+
+
+
+/*
+==========================================================================
+記事内のYoutubeボタンデザイン（PC記事内用）
+==========================================================================
+*/
+.follow-btnyoutube{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.follow-btnyoutube a {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btnyoutube .youtubein { 
+	color: #cd201f;
+	border: 2px solid #cd201f;
+	background: #ffffff;
+}
+.follow-btnyoutube .youtubein:hover {
+	color: #ffffff;
+	background: #cd201f;
+	transition: all .3s;
+}
+.text-smallyoutube{
+    font-size: 13px;
+}
+
+
+/*
+==========================================================================
+記事内のYoutubeボタンデザイン（フォローボタン用）
+==========================================================================
+*/
+.follow-btnyoutubebtn{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.follow-btnyoutubebtn a {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 89.40%;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btnyoutubebtn .youtubein2 { 
+	color: #ffffff;
+	border: 2px solid #cd201f;
+	background: #cd201f;
+}
+.follow-btnyoutubebtn .youtubein2:hover {
+	color: #cd201f;
+	background: #ffffff;
+	transition: all .3s;
+}
+.text-smallyoutubebtn{
+    font-size: 18px;
+}
+
+.youtube-p {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.youtube-p iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+==========================================================================
+グローバルメニュー
+==========================================================================
+*/
+#manubar{
+    width:100%;
+}
+#menubar ul{
+    display:table;
+    position: relative;
+    top: 0px;
+    width:100%;
+    margin: 0; 
+    padding: 0;
+    background-color: #FFFFFF; }
+#menubar li{
+    display: table-cell;
+    width:20%;
+    padding:0;
+    background-color: #333333; }
+#menubar li a{
+    display: block;
+    margin:0 auto;
+    padding:5px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px; }
+#menubar li a:hover{
+    background-color: #666666; }
+
+
+
+/*
+==========================================================================
+記事下の関連記事の部分_2016.5.7
+==========================================================================
+*/
+.ssImg{
+height: 80px;
+width: 80px;
+padding: 0;
+border-radius: 0em; 
+border: solid 1px #666666; 
+}
+
+.ssTitle{
+font-size: 130%;
+}
+
+.ssPanel{
+border-top: none !important;
+border-bottom: 1px solid #888888 !important;
+width: 49% !important;
+height: 100px !important;
+float: left !important;
+margin-right: 1% !important;
+}
+.ssLimitedContainerHeader > div > div > div{
+text-align: center;
+color: #ffffff ;
+background: #444444;
+font-size: 16px ;
+padding: 10px 5px 10px 10px !important;
+margin-top: 15px;
+}
