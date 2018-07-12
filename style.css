@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('http://test.pc-price.com/webfont/icomoon/fonts/icomoon.eot?-qz7pb2');
-	src:url('http://test.pc-price.com/webfont/icomoon/fonts/icomoon.eot?#iefix-qz7pb2') format('embedded-opentype'),
-		url('http://test.pc-price.com/webfont/icomoon/fonts/icomoon.woff?-qz7pb2') format('woff'),
-		url('http://test.pc-price.com/webfont/icomoon/fonts/icomoon.ttf?-qz7pb2') format('truetype'),
-		url('http://test.pc-price.com/webfont/icomoon/fonts/icomoon.svg?-qz7pb2#icomoon') format('svg');
+	src:url('https://popozou.github.io/popozou.io/icomoon.eot?-qz7pb2');
+	src:url('https://popozou.github.io/popozou.io/icomoon.eot?#iefix-qz7pb2') format('embedded-opentype'),
+		url('https://popozou.github.io/popozou.io/icomoon.woff?-qz7pb2') format('woff'),
+		url('https://popozou.github.io/popozou.io/icomoon.ttf?-qz7pb2') format('truetype'),
+		url('https://popozou.github.io/popozou.io/icomoon.svg?-qz7pb2#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
