@@ -809,7 +809,7 @@ margin-top: 15px;
 --------------------------------------*/
 ul.table-of-contents {
   font-size: 14px !important; /*文字サイズ*/
-  border: 1px solid #eee !important;
+  border: 1px solid #666 !important;
   padding: 1em 1.5em 1em 2.25em !important;
   color: #000 !important;
   display: inline-block;
@@ -826,7 +826,7 @@ ul.table-of-contents a:after {
 }
 ul.table-of-contents li a,
 ul.table-of-contents li a:visited {
-  color: #999 !important; /* リンク文字の色 */
+  color: #000 !important; /* リンク文字の色 */
   text-decoration: ; /* リンクの下線あり・なし */
 }
 ul.table-of-contents li a:hover {
