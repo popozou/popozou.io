@@ -844,7 +844,7 @@ ul.table-of-contents li:before {
   content: "\f023";
   position: absolute;
   left: 1.2em;
-  color: lightgrey;
+  color: #333;
 }
 ul.table-of-contents ul li,
 ul.table-of-contents li ul {
