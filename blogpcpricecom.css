@@ -843,7 +843,7 @@ ul.table-of-contents li:before {
   font-family: blogicon;
   content: "\f023";
   position: absolute;
-  left: 0.5em;
+  left: 2.5em;
   color: #333;
 }
 ul.table-of-contents ul li,
