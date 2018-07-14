@@ -808,10 +808,10 @@ margin-top: 15px;
   もくじ
 --------------------------------------*/
 ul.table-of-contents {
-  font-size: 12px !important; /*文字サイズ*/
+  font-size: 14px !important; /*文字サイズ*/
   border: 1px solid #eee !important;
   padding: 1em 1.5em 1em 2.25em !important;
-  color: #999 !important;
+  color: #000 !important;
   display: inline-block;
 }
 ul.table-of-contents:before {
