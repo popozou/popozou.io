@@ -831,7 +831,7 @@ ul.table-of-contents li a:visited {
   text-decoration: ; /* リンクの下線あり・なし */
 }
 ul.table-of-contents li a:hover {
-  color: lightgrey !important; /* リンクにマウスを重ねた時の色 */
+  color: #333 !important; /* リンクにマウスを重ねた時の色 */
 }
 ul.table-of-contents li {
   margin: 5px 0 10px 6px !important;
