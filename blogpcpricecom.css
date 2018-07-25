@@ -811,7 +811,7 @@ ul.table-of-contents {
   width: 80%;
   font-size: 14px !important; /*文字サイズ*/
   border: 1px solid #444 !important;
-  padding: 1em 1.5em 1em 2.25em !important;
+  padding: 1em 1.5em 1em 1.25em !important;
   color: #000 !important;
   display: inline-block;
 }
