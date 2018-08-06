@@ -1,6 +1,6 @@
 /*
 ==========================================================================
-最終更新：2016.8.1
+最終更新：2016.8.6
 ==========================================================================
 */
 
@@ -933,4 +933,65 @@ ul.table-of-contents li ul {
 .shoplinkyahoo img{display:none;}
 .shoplinkyahoo a{font-size:10px;}
 .booklink-footer{display: none;}
+
+
+/*
+==========================================================================
+  関連記事のデザイン（はてなブログ側）
+==========================================================================
+*/
+
+/*1つ1つの関連記事ボックス*/
+li.urllist-item.related-entries-item {
+    margin: 11px 0;
+    padding: 10px 10px 10px 0;
+    background: #ffffff;
+    border: solid 2px #e4e4e4;
+}
+
+/*関連記事の画像の大きさ*/
+img.urllist-image.related-entries-image {
+    width: 120px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-right: 2px solid #e4e4e4;
+}
+
+/*関連記事のタイトル*/
+a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title {
+    text-decoration: none;
+    color: #525252;
+    font-weight: bold;
+}
+
+/*関連記事のタイトル*/
+a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title:hover {
+    color: silver;
+}
+
+/*関連記事の説明*/
+.urllist-entry-body.related-entries-entry-body {
+    color: #8f8f8f;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.urllist-date-link.related-entries-date-link {
+    position: relative;
+}
+
+/*関連記事の日付*/
+.hatena-urllist .urllist-date-link a {
+    display: inline-block;
+    background: #ee8c8c;
+    color: #fff;
+    line-height: 1;
+    padding: 4px 5px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-style: normal;
+    	text-decoration: none;
+}
+
 
