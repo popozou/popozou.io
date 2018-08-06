@@ -1,6 +1,6 @@
 /*
 ==========================================================================
-最終更新：2018.7.27
+最終更新：2018.8.6
 ==========================================================================
 */
 
@@ -796,4 +796,124 @@ margin-top: 15px;
 .shoplinkyahoo a{font-size:10px;}
 .booklink-footer{display: none;}
 
+
+/*
+==========================================================================
+  関連記事のデザイン（はてなブログ側）
+==========================================================================
+*/
+
+/*1つ1つの関連記事ボックス*/
+li.urllist-item.related-entries-item {
+    margin: 11px 0;
+    padding: 10px 10px 10px 0;
+    background: #ffffff;
+    border: solid 2px #e4e4e4;
+}
+
+/*関連記事の画像の大きさ*/
+img.urllist-image.related-entries-image {
+    width: 120px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-right: 2px solid #e4e4e4;
+}
+
+/*関連記事のタイトル*/
+a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title {
+    text-decoration: none;
+    color: #525252;
+    font-weight: bold;
+}
+
+/*関連記事のタイトル*/
+a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title:hover {
+    color: silver;
+}
+
+/*関連記事の説明*/
+.urllist-entry-body.related-entries-entry-body {
+    color: #8f8f8f;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.urllist-date-link.related-entries-date-link {
+    position: relative;
+}
+
+/*関連記事の日付*/
+.hatena-urllist .urllist-date-link a {
+    display: inline-block;
+    background: #ee8c8c;
+    color: #fff;
+    line-height: 1;
+    padding: 4px 5px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-style: normal;
+    	text-decoration: none;
+}
+
+
+/*
+==========================================================================
+  はてなスターのデザイン（はてなブログ側）
+==========================================================================
+*/
+
+.hatena-star-container {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border: solid 1px #ffe5be;
+  background: #fffcf5;
+}
+.hatena-star-container a {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 22px;
+  height: 68px;
+  position: relative;
+}
+.hatena-star-container .hatena-big-star-star-container {
+  width: 22px;
+  height: 68px;
+  overflow: visible;
+}
+.hatena-star-container .hatena-big-star-star-container > .hatena-star-star {
+  background: transparent;
+  position: absolute;
+  top: 46px;
+  left: 50%;
+  margin-left: -7px;
+}
+.hatena-star-container .hatena-star-user {
+  padding: 2px!important;
+  border: 1px solid #ccc!important;
+  background: #fff;
+  max-width: inherit;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  width: 16px;
+  height: 16px;
+  top: 20px;
+  left: 50%;
+  margin-left: -13px;
+  z-index: 1;
+}
+.hatena-star-container a:hover .hatena-star-user {
+  border-radius: 19px;
+  width: 32px;
+  height: 32px;
+  top: 0px;
+  margin-left: -19px;
+  z-index: 10;
+}
 
