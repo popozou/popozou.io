@@ -18,7 +18,7 @@ function get_social_count_facebook(url, selcter) {
 //はてなブックマークではてブ数を取得
 function get_social_count_hatebu(url, selcter) {
   jQuery.ajax({
-    url:'http://api.b.st-hatena.com/entry.count?callback=?',
+    url:'https://b.hatena.ne.jp/entry.count?callback=?',
     dataType:'jsonp',
     data:{
       url:url
