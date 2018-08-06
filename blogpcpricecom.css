@@ -1004,9 +1004,9 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .hatena-star-container {
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: 40px;
-  border: solid 2px #e4e4e4;
-  background: #FFF5EE;
+  margin-bottom: 50px;
+  border: solid 2px #FFF5EE;
+  background: #FFFAF0;
 }
 .hatena-star-container a {
   display: inline-block;
