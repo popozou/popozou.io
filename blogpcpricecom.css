@@ -941,10 +941,6 @@ ul.table-of-contents li ul {
 ==========================================================================
 */
 
-.hatena-module-title {
-    margin: 15px 0px 0px 0px;
-}
-
 /*1つ1つの関連記事ボックス*/
 li.urllist-item.related-entries-item {
     margin: 11px 0;
