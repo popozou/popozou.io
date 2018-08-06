@@ -8,7 +8,7 @@ function get_social_count_facebook(url, selcter) {
       id:url
     },
     success:function(res){
-      jQuery( selcter ).text( res.shares || 0 );
+      jQuery( selcter ).text( res.share.share_count || 0 );
     },
     error:function(){
       jQuery( selcter ).text('0');
