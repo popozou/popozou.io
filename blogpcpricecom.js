@@ -8,7 +8,7 @@ function get_social_count_facebook(url, selcter) {
       id:url
     },
     success:function(res){
-      jQuery( selcter ).text( res.share.share_count || 0 );
+      jQuery( selcter ).text( result.share.share_count || 0 );
     },
     error:function(){
       jQuery( selcter ).text('0');
@@ -40,7 +40,7 @@ function get_social_count_twitter(url, selcter) {
     url:url
   },
   success:function(res){
-    jQuery( selcter ).text( res.count || 0 );
+    jQuery( selcter ).text( result.count || 0 );
   },
   error:function(){
     jQuery( selcter ).text('0');
