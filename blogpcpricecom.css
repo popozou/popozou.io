@@ -1003,6 +1003,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 
 .hatena-star-container {
   padding-top: 5px;
+  padding-left: 10px;
   padding-bottom: 5px;
   margin-bottom: 50px;
   border: solid 1px #ffe5be;
