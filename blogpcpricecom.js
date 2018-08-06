@@ -2,7 +2,7 @@
 //Facebookのシェア数を取得
 function get_social_count_facebook(url, selcter) {
   jQuery.ajax({
-    url:'https://graph.facebook.com/',
+    url:'https://graph.facebook.com/?id={Permalink}&callback=countFacebook',
     dataType:'jsonp',
     data:{
       id:url
