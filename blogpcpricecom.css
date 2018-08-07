@@ -1005,10 +1005,10 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px;
-  margin-right: 5px;
+  margin-right: 0px;
   margin-bottom: 50px;
   border: solid 2px #ffe5be;
-  background: #fffdf0;
+  background: #fffdf5;
 }
 .hatena-star-container a {
   display: inline-block;
