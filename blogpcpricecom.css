@@ -1012,6 +1012,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 .hatena-star-container a {
   display: inline-block;
   vertical-align: bottom;
+  padding-left: 5px;
   width: 22px;
   height: 68px;
   position: relative;
