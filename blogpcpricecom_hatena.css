@@ -665,18 +665,18 @@ POPULAR_ENTRY
     display: table-cell;
     width:20%;
     padding:0;
-    background-color: #333333; }
+    background-color: #FFFFFF; }
 #menubar li a{
     display: block;
     margin:0 auto;
     padding:5px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #000000;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     font-size: 12px; }
 #menubar li a:hover{
-    background-color: #666666; }
+    background-color: #FFFFFF; }
 
 
 
