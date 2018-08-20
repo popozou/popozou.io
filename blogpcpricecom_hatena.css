@@ -63,7 +63,19 @@
 }
 
 /*記事タイトルのH1のところ  width: 665px;*/
-.entry-title {
+.entry-title{
+  margin-bottom: 15px;
+  line-height: 1.3;
+  position: relative;
+  width: 86%;
+  left: 85px;
+  border-bottom: 1px solid #626262;
+  border-left: 8px solid #000000;
+  background-color: #FFFFFF;
+  padding: 8px 0px 8px 5px
+}
+
+.entry-titlexxxx {
   margin-bottom: 15px;
   line-height: 1.3;
   position: relative;
