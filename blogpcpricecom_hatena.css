@@ -4,6 +4,9 @@
 ==========================================================================
 */
 
+.entry-content p{
+    font-size:16px;
+}
 
 .button_blog_box {
 	color: #ffffff;
@@ -51,7 +54,7 @@
 
 
 .date {
-  font-size: 14px;
+  font-size: 11px;
   width: 66px;
   border-top: 1px solid #dedede;
   display: block;
