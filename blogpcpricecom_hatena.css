@@ -919,3 +919,51 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   z-index: 10;
 }
 
+
+/*--------------------------------------
+  もくじ
+--------------------------------------*/
+ul.table-of-contents {
+  width: 80%;
+  font-size: 14px !important; /*文字サイズ*/
+  border: 1px solid #444 !important;
+  padding: 1em 1.5em 1em 1.8em !important;
+  color: #000 !important;
+  display: inline-block;
+}
+ul.table-of-contents:before {
+  content: "- 目次 -"; /* お好きな文言に変更してください */
+  display: inline-block;
+  margin: 0.2em 0em 0.8em;
+  padding: 0em;
+  font-weight: bold;
+}
+ul.table-of-contents a:after {
+  display: none !important;
+}
+ul.table-of-contents li a,
+ul.table-of-contents li a:visited {
+  color: #000 !important; /* リンク文字の色 */
+  text-decoration: ; /* リンクの下線あり・なし */
+}
+ul.table-of-contents li a:hover {
+  color: #333 !important; /* リンクにマウスを重ねた時の色 */
+}
+ul.table-of-contents li {
+  margin: 5px 0 10px 6px !important;
+  line-height: 1.5;
+  padding: 0;
+  list-style-type: none !important;
+}
+ul.table-of-contents li:before {
+  font-family: blogicon;
+  content: "\f023";
+  position: absolute;
+  left: 2.5em;
+  color: #333;
+}
+ul.table-of-contents ul li,
+ul.table-of-contents li ul {
+  /* H1のみ表示させる */
+  display: none !important;
+}
