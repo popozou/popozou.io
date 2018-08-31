@@ -46,6 +46,7 @@
 	background: #28597a;
 	color: #ffffff;
 	text-decoration: none;
+	transition: all .3s;
 	}
 .button_blog:active {
 	border-top-color: #1b435e;
