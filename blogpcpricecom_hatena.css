@@ -65,6 +65,23 @@
   /*border-right: 1px solid #CCC;*/
 }
 
+/* タイトルイメージ調整 */
+#blog-title {
+    padding-top: 5px; /* 画像上部の余白*/
+    padding-bottom: 5px; /* 画像下部の余白*/
+    height: initial;
+}
+.header-image-only #blog-title #blog-title-inner {
+    height: 250px; /* 画像の高さ */
+    background-size: contain;
+}
+@media (max-width: 480px) {
+.header-image-only #blog-title #blog-title-inner {
+    height: 150px; /* 画像の高さ */
+}
+}
+
+
 /*記事タイトルのH1のところ  width: 665px;*/
 .entry-title{
   margin-bottom: 15px;
@@ -73,7 +90,7 @@
   width: 86%;
   left: 85px;
   border-bottom: 1px solid #626262;
-  border-left: 8px solid #000000;
+  border-left: 1px solid #000000;
   background-color: #FFFFFF;
   padding: 8px 0px 8px 5px
 }
