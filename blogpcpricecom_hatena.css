@@ -425,7 +425,7 @@ POPULAR_ENTRY
 */
 
 .follow-btnside2{
-    width: 162px;
+    width: 200px;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -438,7 +438,7 @@ POPULAR_ENTRY
     font-size: 14px;
     text-align: left;
     text-decoration: none;
-    padding: 0px 0px 0px 63px;
+    padding: 0px 0px 0px 100px;
     margin: 0px 0px 0px 0px;
 }
 .follow-btnside2 .hatena2 {
@@ -521,7 +521,7 @@ POPULAR_ENTRY
 ==========================================================================
 */
 .follow-btnsideyt2{
-    width: 225px;
+    width: 300px;
     text-align: center;
     margin-bottom: 0px;
 }
