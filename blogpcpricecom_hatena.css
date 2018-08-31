@@ -11,10 +11,10 @@
 .button_blog_box {
 	color: #ffffff;
 	margin: 40px 0px 45px 0px;
-	transition: 3s background-color ease 0s ;
 }
 
 .button_blog {
+	transition: 3s background-color ease 0s ;
 	color: #ffffff;
 	border-top: 0px solid #518519;
 	background: #518519;
