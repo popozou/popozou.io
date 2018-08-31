@@ -798,22 +798,18 @@ margin-top: 15px;
 
 /*1つ1つの関連記事ボックス*/
 li.urllist-item.related-entries-item {
-    margin: 11px 0;
-    padding: 0 10px 0 0;
-    background: #ffffff;
-    border: solid 2px #e4e4e4;
+    border-bottom: solid 2px #ececec;
+    margin: 0;
+    padding: 10px 0;
 }
 
-/*関連記事の画像の大きさ*/
-img.urllist-image.related-entries-image {
-    border-right: 2px solid #e4e4e4;
+/*関連記事の画像まわり余白調整*/
+.urllist-with-thumbnails li .urllist-image {
     margin: 0 10px 0 0;
 }
 
 /*関連記事のタイトル*/
 a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title {
-	display: inline-block;
-	margin-top: 8px;
     text-decoration: none;
     color: #525252;
     font-weight: bold;
@@ -822,33 +818,6 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
 /*関連記事のタイトル*/
 a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title:hover {
     color: silver;
-}
-
-/*関連記事の説明*/
-.urllist-entry-body.related-entries-entry-body {
-    color: #8f8f8f;
-    font-size: 13px;
-    margin-top: 3px;
-}
-
-.urllist-date-link.related-entries-date-link {
-    position: relative;
-}
-
-/*関連記事の日付*/
-.hatena-urllist .urllist-date-link a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    background: #8cbcee;
-    color: #fff;
-    line-height: 1;
-    padding: 4px 6px;
-    margin-bottom: 3px;
-    font-size: 11px;
-    font-style: normal;
-   	text-decoration: none;
 }
 
 
