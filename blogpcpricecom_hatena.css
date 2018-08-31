@@ -73,6 +73,7 @@
 }
 .header-image-only #blog-title #blog-title-inner {
     height: 200px; /* 画像の高さ */
+　background-image: none;
     background-size: contain;
 }
 @media (max-width: 480px) {
