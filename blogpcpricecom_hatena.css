@@ -915,7 +915,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   もくじ
 --------------------------------------*/
 ul.table-of-contents {
-  width: 80%;
+  width: 100%;
   font-size: 14px !important; /*文字サイズ*/
   border: 1px solid #444 !important;
   padding: 1em 1.5em 1em 1.8em !important;
@@ -938,7 +938,7 @@ ul.table-of-contents li a:visited {
   text-decoration: ; /* リンクの下線あり・なし */
 }
 ul.table-of-contents li a:hover {
-  color: #c6c6c6 !important; /* リンクにマウスを重ねた時の色 */
+  color: #a30000 !important; /* リンクにマウスを重ねた時の色 */
 }
 ul.table-of-contents li {
   margin: 5px 0 10px 6px !important;
