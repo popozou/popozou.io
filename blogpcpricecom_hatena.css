@@ -31,12 +31,12 @@
 	-moz-box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	text-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
-	transition: all 3s;
+	transition: 3s all ;
 	}
 
 .button_blog_box  .button_blog  {
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 18px;
 	text-decoration: none;
 	vertical-align: middle;
 	font-weight: normal
