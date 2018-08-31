@@ -798,7 +798,7 @@ margin-top: 15px;
 
 /*1つ1つの関連記事ボックス*/
 li.urllist-item.related-entries-item {
-    border-bottom: solid 2px #ececec;
+    border-bottom: solid 1px #ececec;
     margin: 0;
     padding: 10px 0;
 }
