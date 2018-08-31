@@ -67,12 +67,12 @@
 
 /* タイトルイメージ調整 */
 #blog-title {
-    padding-top: 5px; /* 画像上部の余白*/
-    padding-bottom: 5px; /* 画像下部の余白*/
+    padding-top: 0px; /* 画像上部の余白*/
+    padding-bottom: 0px; /* 画像下部の余白*/
     height: initial;
 }
 .header-image-only #blog-title #blog-title-inner {
-    height: 250px; /* 画像の高さ */
+    height: 200px; /* 画像の高さ */
     background-size: contain;
 }
 @media (max-width: 480px) {
