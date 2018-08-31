@@ -27,9 +27,9 @@
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	-webkit-box-shadow: rgba(0,0,0,0) 0px 0px 0px 1px;
-	-moz-box-shadow: rgba(0,0,0,0) 0px 0px 0px 1px;
-	box-shadow: rgba(0,0,0,1) 0px 0px 0px 0px;
+	-webkit-box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
+	-moz-box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
+	box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	text-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	}
 
