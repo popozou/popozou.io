@@ -44,7 +44,7 @@
 .button_blog:hover {
 	border-top-color: #28597a;
 	background: #28597a;
-	text-decoration: none;
+	color: #ffffff;
 	transition: all ease 3s;
 	}
 .button_blog:active {
