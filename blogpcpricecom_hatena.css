@@ -16,7 +16,7 @@
 a.button_blog {
 font-size:18px;
 display: block;
-width: 80%;
+width: 88%;
 padding: 0.8em;
 text-align: center;
 text-decoration: none;
@@ -91,7 +91,7 @@ color: #9ec34b;
 }
 
 .entry-see-more:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   border-color: #888888;
   color: #888888;
   text-decoration: none;
