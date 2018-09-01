@@ -11,6 +11,8 @@
 .button_blog_box {
 	color: #ffffff;
 	margin: 40px 0px 45px 0px;
+	word-wrap: break-word;
+	white-space: normal;
 }
 
 .button_blog {
@@ -32,8 +34,6 @@
 	-moz-box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	text-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
-	word-wrap: break-word;
-	white-space: normal;
 	}
 
 .button_blog_box  .button_blog  {
