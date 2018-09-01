@@ -106,6 +106,7 @@ color: #98bc45;
 #blog-title{
     height:80px;
     text-align: center; 
+	margin: 10px 0px 0px 0px;
 }
 .header-image-enable #blog-title #title a {
     color: #000000;
