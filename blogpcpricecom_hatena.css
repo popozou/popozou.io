@@ -9,7 +9,7 @@
 }
 
 .button_blog_box {
-	color: #ffffff;
+	color: #9ec34b;
 	margin: 40px 0px 45px 0px;
 	word-wrap: break-word;
 	white-space: normal;
@@ -18,7 +18,7 @@
 /* ここから下がボタンのCSS　*/
 .button_blog {
   display: inline-block;
-  width: 200px;
+  width: 80%;
   text-align: center;
   background-color: #9ec34b;
   border: 2px solid #9ec34b;
