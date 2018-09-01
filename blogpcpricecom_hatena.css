@@ -40,6 +40,8 @@
 	text-decoration: none;
 	vertical-align: middle;
 	font-weight: normal
+	word-wrap: break-word;
+	white-space: normal;
 	}
 
 .button_blog:hover {
