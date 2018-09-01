@@ -8,7 +8,7 @@ function get_social_count_facebook(url, selcter) {
       id:url
     },
     success:function(res){
-      jQuery( selcter ).text( result.share.share_count || 0 );
+      jQuery( selcter ).text( res.share.share_count || 0 );
     },
     error:function(){
       jQuery( selcter ).text('0');
@@ -33,29 +33,30 @@ function get_social_count_hatebu(url, selcter) {
 }
 //Twitterのシェア数を取得
 function get_social_count_twitter(url, selcter) {
-  jQuery.ajax({
-  url:'https://jsoon.digitiminimi.com/twitter/count.json',
-  dataType:'jsonp',
-  data:{
-    url:url
-  },
-  success:function(res){
-    jQuery( selcter ).text( result.count || 0 );
-  },
-  error:function(){
-    jQuery( selcter ).text('0');
-  }
-  });
+    jQuery.ajax({
+        url:'https://jsoon.digitiminimi.com/twitter/count.json',
+        dataType:'jsonp',
+        timeout: 10000, //10sec
+        data:{
+            url:url
+        },
+        success:function(res){
+            jQuery( selcter ).html( res.count || 0 );
+        },
+        error:function(){
+            jQuery( selcter ).html('error');
+        }
+    });
 }
 //Google＋のシェア数を取得
 function get_social_count_googleplus(url, selcter) {
   jQuery.ajax({
     type: "get", dataType: "xml",
-    url: "http://query.yahooapis.com/v1/public/yql",
+    url: "https://query.yahooapis.com/v1/public/yql",
     data: {
       q: "SELECT content FROM data.headers WHERE url='https://plusone.google.com/_/+1/fastbutton?hl=ja&url=" + url + "' and ua='#Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36'",
       format: "xml",
-      env: "http://datatables.org/alltables.env"
+      env: "https://datatables.org/alltables.env"
     },
     success: function (data) {
       var content = jQuery(data).find("content").text();
@@ -69,11 +70,11 @@ function get_social_count_googleplus(url, selcter) {
 function get_social_count_pocket(url, selcter) {
   $.ajax({
     type: "get", dataType: "xml",
-    url: "http://query.yahooapis.com/v1/public/yql",
+    url: "https://query.yahooapis.com/v1/public/yql",
     data: {
       q: "SELECT content FROM data.headers WHERE url='https://widgets.getpocket.com/v1/button?label=pocket&count=vertical&v=1&url=" + url + "' and ua='#Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36'",
       format: "xml",
-      env: "http://datatables.org/alltables.env"
+      env: "https://datatables.org/alltables.env"
     },
     success: function (data) {
       var content = $(data).find("content").text();
