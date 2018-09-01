@@ -13,60 +13,21 @@
 	margin: 40px 0px 45px 0px;
 }
 
-.button_blog_box .a{
-	color: #9ec34b;
+a.button_blog {
+display: block;
+width: 160px;
+padding: 0.8em;
+text-align: center;
+text-decoration: none;
+color: #EC407A;
+border: 2px solid #EC407A;
+border-radius: 3px;
+transition: .4s;
 }
-
-/* ここから下がボタンのCSS　*/
-.button_blog {
-  display: inline-block;
-  width: 80%;
-  text-align: center;
-  background-color: #9ec34b;
-  border: 2px solid #9ec34b;
-  font-size: 16px;
-  color: #9ec34b;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 24px;
-  border-radius: 4px;
-  position: relative;
+a.button_blog:hover {
+background: #EC407A;
+color: #fff;
 }
-
-.button_blog span {
-  position: relative;
-  z-index: 1;
-}
-
-.button_blog::before,
-.button_blog::after {
-  content: "";
-  display: block;
-  background-color: #FFF;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  transition: .2s;
-}
-.button_blog::before {
-  left: 0;
-}
-.button_blog::after {
-  right: 0;
-}
-
-.button_blog:hover:before,
-.button_blog:hover:after {
-  width: 0;
-  background-color: #FFF;
-}
-
-.button_blog:hover {
-  color: #FFF;
-
-
-
 
 
 /*記事タイトルのH1のところ  width: 665px;*/
