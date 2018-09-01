@@ -4,6 +4,12 @@
 ==========================================================================
 */
 
+em{
+font-weight:bold;
+font-style: normal;
+background: linear-gradient(transparent 60%, #ffff33 60%);
+}
+
 .entry-content p{
     font-size:16px;
 }
