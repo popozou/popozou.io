@@ -18,7 +18,7 @@
 a.button_blog {
 display: block;
 position: relative;
-width: 160px;
+width: 80%;
 padding: 0.8em;
 text-align: center;
 text-decoration: none;
@@ -42,7 +42,7 @@ transition: 0.3s;
 z-index: -1;
 }
 a.button_blog:hover {
-color: #da3c41;
+color: #7bad41;
 }
 a.button_blog:hover:after {
 height: 250%;
