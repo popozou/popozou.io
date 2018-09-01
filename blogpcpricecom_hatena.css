@@ -34,6 +34,7 @@
 	-moz-box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
 	text-shadow: rgba(0,0,0,0) 0px 0px 0px 0px;
+	word-wrap: break-word;
 	}
 
 .button_blog_box  .button_blog  {
@@ -42,6 +43,7 @@
 	text-decoration: none;
 	vertical-align: middle;
 	font-weight: normal
+	word-wrap: break-word;
 	}
 
 .button_blog:hover {
