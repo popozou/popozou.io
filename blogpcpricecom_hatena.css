@@ -23,7 +23,7 @@ background: #9ec34b;
 color: #fff;
 border: 2px solid #9ec34b;
 border-radius: 3px;
-transition: .4s;
+transition: .3s;
 }
 a.button_blog:hover {
 background: #ffff;
@@ -78,10 +78,10 @@ color: #9ec34b;
   display: block;
   width: 200px;
   height: 40px;
-  line-height: 40px;
+  line-height: 38px;
   text-align: center;
   font-weight:bold;
-  border: 2px solid #666666;
+  border: 2px solid #888888;
   border-radius: 3px;
   transition: .01s
   color:#ffffff;
@@ -90,9 +90,9 @@ color: #9ec34b;
 }
 
 .entry-see-more:hover {
-  background-color: #888888;
+  background-color: #fff;
   border-color: #888888;
-  color: #ffffff;
+  color: #888888;
   text-decoration: none;
 }
 
