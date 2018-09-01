@@ -15,17 +15,17 @@
 
 a.button_blog {
 display: block;
-width: 160px;
+width: 80%;
 padding: 0.8em;
 text-align: center;
 text-decoration: none;
-color: #EC407A;
-border: 2px solid #EC407A;
+color: #9ec34b;
+border: 2px solid #9ec34b;
 border-radius: 3px;
 transition: .4s;
 }
 a.button_blog:hover {
-background: #EC407A;
+background: #9ec34b;
 color: #fff;
 }
 
