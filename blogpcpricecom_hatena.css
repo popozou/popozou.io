@@ -105,6 +105,7 @@ color: #98bc45;
 */
 #blog-title{
     height:100px;
+    text-align: center; 
 }
 .header-image-enable #blog-title #title a {
     color: #000000;
