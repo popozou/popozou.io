@@ -1,5 +1,6 @@
 //最終更新日：2016.4.15
 //Facebookのシェア数を取得
+<script>
 function get_social_count_facebook(url, selcter) {
   jQuery.ajax({
     url:'https://graph.facebook.com/?id={Permalink}&callback=countFacebook',
@@ -92,3 +93,4 @@ jQuery(function(){
   get_social_count_googleplus('{Permalink}', '.googleplus-count');
   get_social_count_pocket('{Permalink}', '.pocket-count');
 });
+</script>
