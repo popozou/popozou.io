@@ -9,7 +9,7 @@
 }
 
 .button_blog_box {
-	color: #9ec34b;
+	color: #90b243;
 	margin: 40px 0px 45px 0px;
 }
 
@@ -20,15 +20,15 @@ width: 88%;
 padding: 1.0em;
 text-align: center;
 text-decoration: none;
-background: #9ec34b;
+background: #90b243;
 color: #fff;
-border: 3px solid #9ec34b;
+border: 3px solid #90b243;
 border-radius: 3px;
 transition: .3s;
 }
 a.button_blog:hover {
-background: #ffff;
-color: #9ec34b;
+background: #f5ffe0;
+color: #90b243;
 }
 
 
