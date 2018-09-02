@@ -5,5 +5,5 @@
         $("#include-sns").load("https://popozou.github.io/popozou.io/include-sns.html");
     })
     $(function(){
-        $("#include-sns").load("https://popozou.github.io/popozou.io/include-sns-sports.html");
+        $("#include-sns-sports").load("https://popozou.github.io/popozou.io/include-sns-sports.html");
     })
