@@ -4,3 +4,6 @@
     $(function(){
         $("#include-sns").load("https://popozou.github.io/popozou.io/include-sns.html");
     })
+    $(function(){
+        $("#include-sns").load("https://popozou.github.io/popozou.io/include-sns-sports.html");
+    })
