@@ -923,11 +923,11 @@ ul.table-of-contents li ul {
 /*--------------------------------------
   eスポーツ：固定ページ
 --------------------------------------*/
-.categories {
+.static-page-e-sports .categories {
   font-size: 0.875em;
   margin-top: 12px; }
 
-.categories a {
+.static-page-e-sports .categories a {
   border: 1px solid #e6e6e6;
   border-radius: 2px;
   float: left;
@@ -936,6 +936,6 @@ ul.table-of-contents li ul {
   margin: 0 6px 6px 0;
   padding: 0 12px; }
   @media screen and (min-width: 1024px) {
-    .categories a:hover {
+    .static-page-e-sports .categories a:hover {
       background-color: #f6f6f6;
       color: #333; } }
