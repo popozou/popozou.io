@@ -4,6 +4,24 @@
 ==========================================================================
 */
 
+body {
+  /*  フォントの種類  */
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  
+  /*  フォントのサイズ  */
+  font-size: 16px;
+  
+  /*  フォントの色  */
+  color: #000;
+  
+  /* カーニングの設定 */
+  letter-spacing: 1.5px;
+  
+  /* 行間の設定 */
+  line-height: 1.75;
+}
+
 em{
 font-weight:bold;
 font-style: normal;
@@ -82,6 +100,19 @@ color: #98bc45;
   background-color: #3498db;
   border-radius: 4px;
 }
+
+h4 {
+  color: #444;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0 0 2px 6px;
+  border-left: 8px solid #5095c5;
+  border-bottom: 2px solid #5095c5;
+  letter-spacing: normal;
+  margin: 1.5em 0 1.2em; }
+  @media screen and (max-width: 1023px) {
+    h4 {
+      margin-bottom: 1em; } }
 
 
 /*続きを読むボタン*/
@@ -939,3 +970,116 @@ ul.table-of-contents li ul {
     .static-page-e-sports .categories a:hover {
       background-color: #f6f6f6;
       color: #333; } }
+
+
+/*--------------------------------------
+  Menu-並び
+--------------------------------------*/
+/* </Menu-並び> */
+.box {
+float: left;
+font-size: 14px;
+text-align: center;
+margin: 0px 0px 0px 0px;
+}
+
+.box2 {
+float: left;
+font-size: 14px;
+text-align: center;
+margin: 0px 0px 0px 5px;
+}
+
+.boxContainer {
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* clearfix */
+.boxContainer:before,
+.boxContainer:after {
+    content: "";
+    display: table;
+}
+ 
+.boxContainer:after {
+clear: both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.boxContainer {zoom: 1;}
+
+
+/* </Menu-周辺機器> */
+.box-syuhen {
+float: left;
+font-size: 14px;
+text-align: center;
+margin: 0px 0px 0px 15px;
+}
+
+.box-syuhen2 {
+float: left;
+font-size: 14px;
+text-align: center;
+margin: 0px 0px 0px 10px;
+}
+
+.boxContainer-syuhen {
+overflow: hidden;
+}
+
+/* clearfix */
+.boxContainer-syuhen:before,
+.boxContainer-syuhen:after {
+    content: "";
+    display: table;
+}
+ 
+.boxContainer-syuhen:after {
+clear: both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.boxContainer-syuhen {zoom: 1;}
+
+/* </text> */
+.clear-ad {
+  clear:both;　/*floatの解除*/
+  padding: 15px 15px 0px 15px;
+  margin: 15px 15px 0px 15px;
+  background: #bbe855;
+}
+
+.clear-ad-text {
+  size: 12px;
+  font-weight: bold;
+  padding: 8px 0px 6px 6px;
+  margin: 0px 0px 0px 0px;
+  border-left: solid 10px #9fc645;
+}
+
+/*--------------------------------------
+  Google Ad
+--------------------------------------*/
+/* </Google Ad> */
+.googlead {
+  height: 20px;
+  width: 85%;
+  font-size: 10px;
+  padding: 0px 0px 0px 0px;
+  margin: 25px 130px 25px 0px;
+  border:solid 0px #444444;
+}
+
+/* </Google Ad> */
+.googlead_page {
+  height: 100px;
+  width: 95%;
+  margin: 0px 0px 0px 10px;
+  border:solid 0px #444444;
+}
+
+ins.adsbygoogle { background: transparent !important; }
