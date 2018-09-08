@@ -1083,3 +1083,88 @@ clear: both;
 }
 
 ins.adsbygoogle { background: transparent !important; }
+
+
+/*--------------------------------------
+  吹き出しのような青い枠、オレンジの枠
+--------------------------------------*/
+.imgsen {
+border: solid 1px #e5e5e5;
+}
+
+.box27 {
+    position: relative;
+    margin: 4em 0 1em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #5dbecc;
+    border-radius: 0px 8px 8px 8px;
+    background-color: #f7fdff;
+}
+.box27 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -33px;
+    left: -3px;
+    padding: 4px 12px 4px 12px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #5dbecc;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box27 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.emline-box27 {
+font-size: 120%;
+font-weight:bold;
+background: linear-gradient(transparent 75%, #5dbecc 75%);
+height: 45px;
+line-height: 45px;
+}
+
+.box27-esp {
+    position: relative;
+    margin: 4em 0 1em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #f5c22e;
+    border-radius: 0px 8px 8px 8px;
+    background-color: #fffcf9;
+}
+.box27-esp  .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -33px;
+    left: -3px;
+    padding: 4px 12px 4px 12px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #f5c22e;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box27-esp  p {
+    margin: 0; 
+    padding: 0;
+}
+
+.emline-box27-esp {
+font-size: 120%;
+font-weight:bold;
+background: linear-gradient(transparent 75%, #f7d165 75%);
+height: 45px;
+line-height: 45px;
+}
+
+.quote-text {
+font-size: 80%;
+text-align :right;
+}
