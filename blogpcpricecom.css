@@ -1059,36 +1059,36 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   はてなスターのデザイン（はてなブログ側）
 ==========================================================================
 */
+/* 2018.12.10 にはずすため末尾に「-no」を追加 */
 
-.hatena-star-container {
+.hatena-star-container-no {
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px;
-  margin-right: 0px;
   margin-bottom: 50px;
-  border: solid 2px #feeeda;
-  background: #fefdfa;
+  border: solid 1px #e2e2e2;
+  background: #ffffff;
 }
-.hatena-star-container a {
+.hatena-star-container-no a {
   display: inline-block;
   vertical-align: bottom;
   width: 22px;
   height: 68px;
   position: relative;
 }
-.hatena-star-container .hatena-big-star-star-container {
+.hatena-star-container-no .hatena-big-star-star-container-no {
   width: 22px;
   height: 68px;
   overflow: visible;
 }
-.hatena-star-container .hatena-big-star-star-container > .hatena-star-star {
+.hatena-star-container-no .hatena-big-star-star-container-no > .hatena-star-star-no {
   background: transparent;
   position: absolute;
   top: 46px;
   left: 50%;
   margin-left: -7px;
 }
-.hatena-star-container .hatena-star-user {
+.hatena-star-container-no .hatena-star-user-no {
   padding: 2px!important;
   border: 1px solid #ccc!important;
   background: #fff;
@@ -1106,7 +1106,7 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   margin-left: -13px;
   z-index: 1;
 }
-.hatena-star-container a:hover .hatena-star-user {
+.hatena-star-container-no a:hover .hatena-star-user-no {
   border-radius: 19px;
   width: 32px;
   height: 32px;
@@ -1114,3 +1114,4 @@ a.urllist-title-link.related-entries-title-link.urllist-title.related-entries-ti
   margin-left: -19px;
   z-index: 10;
 }
+
